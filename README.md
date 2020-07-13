@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: Milk Hall
+tagline: 一个简单记录学习过程的博客网站
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
