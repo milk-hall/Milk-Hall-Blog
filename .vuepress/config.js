@@ -81,17 +81,17 @@ module.exports = {
       {
         "title": "Milk Hall",
         "desc": "Enjoy when you can, and endure when you must.",
-        "email": "gkinxin@qq.com",
+        "email": "gkinxin@gmail.com",
         "link": "https://blog.lalilali.com"
       },
     ],
-    "logo": "/favicon.ico",
+    "logo": "/avatar.jpg",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "xg",
-    "authorAvatar": "/avatar.png",
-    "record": "",
+    "authorAvatar": "/avatar.jpg",
+    "record": "Milk Hall",
     "startYear": "2020"
   },
   "markdown": {
