@@ -1,5 +1,5 @@
 Arguments: 
-  D:\code\node\node.exe C:\Users\XIN\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @vuepress-reco/kan-ban-niang -D
+  D:\code\node\node.exe C:\Users\XIN\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @vuepress-reco/pagation
 
 PATH: 
   C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\XIN\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Java\jdk1.8.0_231\jre\bin;D:\code\mysql-8.0.18-winx64\bin;D:\code\MinGW\bin;C:\Users\XIN\AppData\Local\Yarn\bin;C:\Program Files\Git\cmd;D:\code\node;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\XIN\.windows-build-tools\python27;C:\Users\XIN\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\XIN\AppData\Local\Programs\Python\Python38;C:\Users\XIN\AppData\Local\Microsoft\WindowsApps;D:\code\Microsoft VS Code\bin;C:\Users\XIN\AppData\Roaming\npm
@@ -14,8 +14,17 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: connect ETIMEDOUT 104.16.18.35:443
-      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+  Error: https://registry.yarnpkg.com/@vuepress-reco%2fpagation: Not found
+      at Request.params.callback [as _callback] (C:\Users\XIN\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66947:18)
+      at Request.self.callback (C:\Users\XIN\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140665:22)
+      at Request.emit (events.js:310:20)
+      at Request.<anonymous> (C:\Users\XIN\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141637:10)
+      at Request.emit (events.js:310:20)
+      at IncomingMessage.<anonymous> (C:\Users\XIN\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141559:12)
+      at Object.onceWrapper (events.js:416:28)
+      at IncomingMessage.emit (events.js:322:22)
+      at endReadableNT (_stream_readable.js:1187:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
 
 npm manifest: 
   {
@@ -27,7 +36,10 @@ npm manifest:
       "build": "vuepress build ."
     },
     "devDependencies": {
+      "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.3",
+      "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
       "vuepress": "1.5.0",
+      "vuepress-plugin-auto-sidebar": "^1.5.0",
       "vuepress-theme-reco": "1.4.7"
     },
     "dependencies": {

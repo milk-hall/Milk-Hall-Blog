@@ -11,6 +11,7 @@ tagline: A simple and beautiful vuepress blog theme.
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
+bgImage: '/avatar.png'
 bgImageStyle: {
   height: '450px'
 }

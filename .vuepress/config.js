@@ -7,6 +7,7 @@ module.exports = {
       'lang': 'zh-CN'
     }
   },
+  'headerBackgroundImg': '/logo.png',
   "head": [
     [
       "link",
@@ -103,6 +104,9 @@ module.exports = {
     ],
     [
       "vuepress-plugin-auto-sidebar",
-    ]
-  ], 
+    ],
+    ['@vuepress-reco/vuepress-plugin-pagation', {
+      perPage: 2,
+    }]
+  ],
 }
